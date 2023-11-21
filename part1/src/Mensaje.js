@@ -1,6 +1,6 @@
-const Mensaje = (params) => {
-    return <h1 style={{color: params.color}}>
-         {params.message}
+const Mensaje = (param) => {
+    return <h1 style={{color: param.color}}>
+         {param.message}
     </h1>
   }
 
